@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import React, { useState } from 'react'
+import Nav from './Nav'
 
 
 const AddVol = () => {
@@ -59,7 +60,7 @@ const AddVol = () => {
         <div>
 
 
-
+<Nav/>
             <div className="container mt-4">
                 <div className="row">
                     <div className="col-12">
